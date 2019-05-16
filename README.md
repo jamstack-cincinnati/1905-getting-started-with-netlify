@@ -1,0 +1,3 @@
+- [ ] Move everything into the root directory
+- [ ] Add a page with instructions on getting this rolling (ignore from Netlify?)
+- [ ] Add Ample and JAMstack logos to a footer
