@@ -1,0 +1,15 @@
+{
+  "name": "schmonz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "http-server www -p 8000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sean C Davis",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}

@@ -1,0 +1,124 @@
+/* ---------------------------------------- | Base */
+
+html {
+  --black: #444444;
+  --blue-dk: #33b8ba;
+  --blue-lt: #7dfdff;
+  --blue: #2adcdf;
+  --grey: #aaaaaa;
+  --grey-lt: #cccccc;
+  --red-dk: #ae3932;
+  --red: #ff776f;
+  --white: #efefef;
+}
+
+:root {
+  font-size: 16px;
+}
+
+body {
+  color: var(--black);
+  font-family: 'Karla', sans-serif;
+  line-height: 1.15;
+}
+
+@media (max-width: 600px) {
+  :root {
+    font-size: 13px;
+  }
+}
+
+/* ---------------------------------------- | Header */
+
+.header {
+  background-color: var(--red);
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.header h1 {
+  color: var(--white);
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+/* ---------------------------------------- | Container */
+
+.quotes-container {
+  margin: 1rem auto;
+  max-width: 37.5rem;
+  padding: 2.5rem 1rem 1rem;
+}
+
+/* ---------------------------------------- | Quote Container */
+
+.quote {
+  align-items: center;
+  display: grid;
+  grid-template-columns: auto 50px;
+  margin-bottom: 3.5rem;
+  position: relative;
+}
+
+/* ---------------------------------------- | Quote Body */
+
+.quote-body {
+  font-size: 1.75rem;
+  margin-bottom: .5rem;
+}
+
+.quote-body::before {
+  color: var(--black);
+  content: '“';
+  font-size: 10rem;
+  left: -1.75rem;
+  line-height: 1;
+  opacity: 0.15;
+  position: absolute;
+  top: -1.75rem;
+  z-index: -1;
+}
+
+.quote-attribution {
+  font-size: 1.15rem;
+  color: var(--grey);
+}
+
+.quote-attribution::before {
+  content: '-';
+  display: inline-block;
+  margin-right: .25rem;
+}
+
+/* ---------------------------------------- | Quote Rating */
+
+.quote-rating {
+  text-align: center;
+  /* position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(50%); */
+}
+
+.quote-vote-down,
+.quote-vote-up {
+  color: var(--grey-lt);
+  display: block;
+  font-size: 2rem;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.quote-vote-down:hover,
+.quote-vote-up:hover {
+  opacity: 0.75;
+  transition: opacity .35s ease;
+}
+
+.quote-current-score {
+  color: var(--grey);
+  display: block;
+  font-size: 1.5rem;
+  line-height: 1;
+  margin: .25rem 0 .75rem;
+}
