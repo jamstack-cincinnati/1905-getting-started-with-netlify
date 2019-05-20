@@ -56,6 +56,8 @@ These are the steps we're going to follow in the workshop:
 
 1. Add a `contact.html` page to your project with a Netlify form.
 2. Commit, push, deploy.
+3. Add a reCAPTCHA field.
+4. Commit, push, deploy.
 
 ### Redirects
 
