@@ -122,3 +122,16 @@ body {
   line-height: 1;
   margin: .25rem 0 .75rem;
 }
+
+/* ---------------------------------------- | Footer */
+
+.footer {
+  background-color: var(--grey-lt);
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.footer img {
+  margin: 1rem 5rem;
+  max-width: 250px;
+}
