@@ -126,12 +126,12 @@ body {
 /* ---------------------------------------- | Footer */
 
 .footer {
-  background-color: var(--red);
+  background-color: var(--grey-lt);
   padding: 4rem 1rem;
   text-align: center;
 }
 
 .footer img {
-  padding: 25px;
-  max-width: 400px;
+  margin: 1rem 5rem;
+  max-width: 250px;
 }
