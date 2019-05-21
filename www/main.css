@@ -42,9 +42,23 @@ body {
   font-weight: bold;
 }
 
+/* ---------------------------------------- | Footer */
+
+.footer {
+  background-color: var(--grey-lt);
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.footer img {
+  margin: 1rem 5rem;
+  max-width: 250px;
+}
+
+
 /* ---------------------------------------- | Container */
 
-.quotes-container {
+.container {
   margin: 1rem auto;
   max-width: 37.5rem;
   padding: 2.5rem 1rem 1rem;
@@ -94,10 +108,6 @@ body {
 
 .quote-rating {
   text-align: center;
-  /* position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translateY(50%); */
 }
 
 .quote-vote-down,
@@ -123,15 +133,35 @@ body {
   margin: .25rem 0 .75rem;
 }
 
-/* ---------------------------------------- | Footer */
+/* ---------------------------------------- | Form */
 
-.footer {
-  background-color: var(--grey-lt);
-  padding: 4rem 1rem;
-  text-align: center;
+label,
+input,
+textarea {
+  display: block;
+  width: 100%;
 }
 
-.footer img {
-  margin: 1rem 5rem;
-  max-width: 250px;
+label {
+  margin-bottom: 0.25rem;
+}
+
+input,
+textarea {
+  margin-bottom: 1.5rem;
+  padding: .5rem;
+}
+
+button {
+  background-color: var(--red);
+  border: none;
+  color: var(--white);
+  padding: .5rem 1.5rem;
+  font-size: .85rem;
+  transition: background-color 0.35s ease;
+}
+
+button:hover {
+  background-color: var(--red-dk);
+  cursor: pointer;
 }
