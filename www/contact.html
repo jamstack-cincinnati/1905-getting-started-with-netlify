@@ -14,7 +14,7 @@
     <header class="header"><h1 class="header-title">#schmonz</h1></header>
 
     <div class="container">
-      <form action="" data-netlify="true" method="POST">
+      <form action="" data-netlify="true" method="POST" data-netlify-recaptcha="true">
         <div>
           <label for="name">Name</label>
           <input type="text" name="name" autofocus>
@@ -23,6 +23,7 @@
           <label for="message">Message</label>
           <textarea name="message"></textarea>
         </div>
+        <div data-netlify-recaptcha="true"></div>
         <div>
           <button type="submit">Send Message</button>
         </div>
